@@ -11,4 +11,8 @@ public struct APIManager {
     public static func fetchData() -> String {
         return "API data fetched successfully!"
     }
+
+    public static func errorMessage() -> String {
+        return "Error Message!"
+    }
 }
