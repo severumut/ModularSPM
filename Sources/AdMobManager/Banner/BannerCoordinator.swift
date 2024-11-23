@@ -24,7 +24,7 @@ public class BannerCoordinator: NSObject, GADBannerViewDelegate {
     }()
 
     // MARK: - Initialization
-    init(adType: AdType, adSize: GADAdSize) {
+    public init(adType: AdType, adSize: GADAdSize) {
         self.adType = adType
         self.adSize = adSize
         super.init()
