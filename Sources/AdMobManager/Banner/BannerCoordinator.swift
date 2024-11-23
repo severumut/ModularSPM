@@ -11,8 +11,8 @@ import GoogleMobileAds
 public class BannerCoordinator: NSObject, GADBannerViewDelegate {
 
     // MARK: - Properties
-    let adType: AdType
-    let adSize: GADAdSize
+    public let adType: AdType
+    public let adSize: GADAdSize
 
     // MARK: - Banner View
     private(set) lazy var bannerView: GADBannerView = {

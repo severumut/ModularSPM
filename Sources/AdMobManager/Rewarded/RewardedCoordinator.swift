@@ -17,7 +17,7 @@ public class RewardedCoordinator: NSObject, ObservableObject {
     private var rewardedAd: GADRewardedAd?
 
     // MARK: - Initialization
-    private let adType: AdType
+    public let adType: AdType
 
     public init(adType: AdType) {
         self.adType = adType

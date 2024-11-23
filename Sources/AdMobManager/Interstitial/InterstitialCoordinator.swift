@@ -17,7 +17,7 @@ public class InterstitialCoordinator: NSObject, ObservableObject {
     private var interstitialAd: GADInterstitialAd?
 
     // MARK: - Initialization
-    private let adType: InterstitialType
+    public let adType: InterstitialType
 
     public init(adType: InterstitialType) {
         self.adType = adType

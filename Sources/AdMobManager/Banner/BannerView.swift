@@ -11,8 +11,8 @@ import SwiftUI
 public struct BannerView: UIViewRepresentable {
 
     // MARK: - Properties
-    let adSize: GADAdSize
-    let adType: AdType
+    public let adSize: GADAdSize
+    public let adType: AdType
 
     // MARK: - UIViewRepresentable Methods
     public func makeUIView(context: Context) -> UIView {
